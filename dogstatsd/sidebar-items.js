@@ -1,0 +1,1 @@
+initSidebarItems({"struct":[["Client","The client struct that handles sending metrics to the Dogstatsd server."],["Options","The struct that represents the options available for the Dogstatsd client."]],"type":[["DogstatsdResult","A type alias for returning a unit type or an error"]]});
