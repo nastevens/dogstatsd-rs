@@ -1,8 +1,10 @@
 use std::error::Error;
 use std::{fmt, io};
 
+/// Errors returned by library
 #[derive(Debug)]
 pub enum DogstatsdError {
+    /// Error was an io::Error
     IoError(io::Error),
 }
 
